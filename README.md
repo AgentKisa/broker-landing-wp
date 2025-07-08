@@ -53,8 +53,6 @@ goit/
 │   └── sprite.svg    # SVG icon sprite
 ├── inc/              # Theme includes (e.g., post types, scripts)
 ├── template-parts/   # Reusable template files for sections
-├── node_modules/     # (Ignored by Git) NPM dependencies
-├── .gitignore        # Specifies files to be ignored by Git
 ├── footer.php
 ├── functions.php     # Theme setup and custom functionality
 ├── gulpfile.js       # Gulp automation tasks
@@ -98,7 +96,7 @@ goit/
 
 ## Author
 
-**Valeria [Your Last Name]**
+**Valeria**
 
 - Telegram: [@ValeriyaJ]
 - LinkedIn: [linkedin.com/in/valeriia-muntyan/](https://www.linkedin.com/in/valeriia-muntyan/)
