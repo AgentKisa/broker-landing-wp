@@ -1,0 +1,33 @@
+/*!
+Theme Name: GoIT
+Theme URI: https://goit.global/
+Author: goiteens
+Author URI: https://goit.global
+Description: goit
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: goit
+Tags: goit
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--White, #fff);
+  color: #0c2e4e;
+}
+
+/* style.css */
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}

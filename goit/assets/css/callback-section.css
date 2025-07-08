@@ -1,0 +1,66 @@
+.callback-section {
+  background: var(--Dark, #0a2540);
+  padding: 120px 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1180px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.callback-subtitle {
+  color: var(--b2green500, #21c5a2);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+.callback-title {
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.callback-text {
+  color: var(--Light-Grey, #adbdcc);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 155%;
+  margin-bottom: 40px;
+  width: 604px;
+}
+
+.callback-button {
+  background: var(--b2green500, #21c5a2);
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  padding: 16px 32px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.callback-button:hover {
+  background-color: #00cc80;
+}

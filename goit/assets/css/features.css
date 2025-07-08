@@ -1,0 +1,140 @@
+.comparison-section {
+  background-color: #0a2540;
+  padding: 120px 138px;
+}
+
+.comparison-section__header {
+  width: 604px;
+}
+
+.comparison-section__title {
+  color: var(--White, #fff);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+
+.comparison-section__subtitle {
+  color: var(--Light-Grey, #adbdcc);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 155%;
+  margin-bottom: 80px;
+}
+
+.comparison-table {
+  max-width: 1240px;
+  width: 100%;
+  border-collapse: separate;
+  margin-bottom: 30px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  color: #f6f9fc;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.comparison-table__header {
+}
+
+.comparison-table__header th {
+  margin-right: 8px;
+  text-align: center;
+}
+
+.single-lp-header {
+  background-color: #2395ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-right: 8px;
+  width: 170px;
+}
+
+.prime-header {
+  background-color: #32ddb8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-right: 8px;
+  width: 223px;
+}
+
+.several-lps-header {
+  background-color: #2395ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  width: 192px;
+}
+
+.features-header {
+  color: var(--White, #fff);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 10px;
+  background: var(--Dark-Navy, #0c2e4e);
+  text-align: left;
+  margin-right: 8px;
+  width: 571px;
+}
+
+.checkmark {
+  font-weight: bold;
+  text-align: center;
+}
+
+.cross {
+  font-weight: bold;
+  text-align: center;
+}
+
+.risk-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.risk-indicator__item {
+  color: #f6f9fc;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.comparison-table__row td {
+  border-bottom: 1px solid #c9c2;
+}
+
+.comparison-table__row:last-child td {
+  border-bottom: none;
+}
+
+.risk-high {
+  color: #f6f9fc;
+}
+
+.risk-medium {
+  color: #f6f9fc;
+}
+
+.risk-low {
+  color: #f6f9fc;
+}
+
+.icon {
+  width: 18px;
+  height: 36px;
+}

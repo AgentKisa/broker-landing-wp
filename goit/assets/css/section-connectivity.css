@@ -1,0 +1,74 @@
+.connectivity-section {
+  background: #fff;
+  padding: 120px;
+}
+.connectivity-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #001430;
+}
+.connectivity-logos {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.connectivity-paragraph {
+  margin-bottom: 24px;
+  color: var(--b2green500, #21c5a2);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.connectivity-logo {
+  width: 136px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.connectivity-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.connectivity-content {
+  display: flex;
+  gap: 32px;
+}
+.connectivity-col strong {
+  display: block;
+  color: var(--Dark, #0a2540);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.connectivity-col p {
+  color: var(--Grey, #6d849c);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 155%;
+  margin-bottom: 8px;
+}
+
+.connectivity-col {
+  padding: 32px;
+  height: 254px;
+  border-radius: 19px;
+  background: var(--Background, #f6f9fc);
+  box-shadow: 14px 16px 25px 0px rgba(50, 50, 93, 0.08);
+}
+
+.left-col {
+  width: 562px;
+}
+
+.right-col {
+  width: 646px;
+}

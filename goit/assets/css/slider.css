@@ -1,0 +1,27 @@
+.mySwiper {
+  width: 100%;
+  height: 650px;
+  position: relative;
+  background: var(--Background, #f6f9fc);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  color: #21c5a2;
+}
+
+.swiper-pagination-bullet-active {
+  background: #21c5a2 !important;
+  color: #21c5a2;
+  background-color: #21c5a2 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
